@@ -21,6 +21,10 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-top: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    border-bottom: 5px solid #000;
+    padding-left: 20px;
 }
 .projects-container {
     display: grid;
@@ -50,4 +54,7 @@ body {
 }
 .automatedgms img {
     border-radius: 5px;
+}
+h3 {
+    color: blue
 }
