@@ -17,6 +17,8 @@ mouseOutColor.style.backgroundColor = 'aqua'
 
 const adjustBtnsize = document.getElementById('btn')
 adjustBtnsize.style.padding = "5px 50px"
+adjustBtnsize.innerHTML = 'Switch Theme';
+adjustBtnsize.style.color = 'black'
 
 const pageTitle = document.querySelector('#pageTitle')
 pageTitle.innerHTML = "Gilbert Korir Profile";
